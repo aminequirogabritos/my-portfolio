@@ -1,0 +1,27 @@
+@use 'mixins' as *;
+@use 'variables' as *;
+
+.section {
+	width: 100%;
+	z-index: 1;
+	position: relative;
+	background: $background;
+}
+
+.container {
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+
+	max-width: 1200px;
+	padding-right: 2rem;
+	padding-left: 2rem;
+
+	padding-bottom: 8rem;
+	padding-top: 8rem;
+
+	@include mobile {
+		padding-right: 1.25rem;
+		padding-left: 1.25rem;
+	}
+}

@@ -1,0 +1,21 @@
+@use 'variables' as *;
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin mobile {
+	@media (max-width: #{$breakpoint-mobile}) {
+		@content;
+	}
+}
+
+@mixin style-primary {
+	background-color: var(--secondary-500);
+}
+
+@mixin style-secondary {
+	border: 1px solid var(--secondary-500);
+}

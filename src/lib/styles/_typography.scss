@@ -1,0 +1,52 @@
+@use 'variables' as *;
+
+body {
+	font-family: 'Inter', sans-serif;
+	color: $text;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+	/* font-size: clamp(3rem, 8vw, 5rem); */
+	font-size: $font-size-xxl;
+}
+
+h2 {
+	font-size: $font-size-xl;
+	&.section-title {
+		display: flex;
+		align-items: center;
+		gap: 1rem;
+
+		color: white;
+		font-weight: 700;
+		letter-spacing: 0.04em;
+	}
+
+	&.section-title::before {
+		content: '';
+		width: 3rem;
+		height: 2px;
+		background: var(--primary-400);
+	}
+
+	&.section-title::after {
+		content: '';
+		flex: 1;
+		height: 1px;
+		background: var(--surface-600);
+	}
+}
+
+h3 {
+	font-size: $font-size-lg;
+}
+
+p {
+	line-height: 1.7;
+}

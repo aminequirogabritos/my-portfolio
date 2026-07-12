@@ -1,0 +1,50 @@
+$background: #0f1115;
+$surface: #181a20;
+
+$text: #ffffff;
+$text-secondary: #a1a1aa;
+
+$primary: #ed3aa2;
+
+$border-radius: 12px;
+
+$content-width: 1200px;
+
+$transition: 200ms ease;
+
+$breakpoint-mobile: 768px;
+
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.875rem;
+$font-size-base: 1rem;
+$font-size-lg: 1.4rem;
+$font-size-xl: 2.2rem;
+$font-size-xxl: 3rem;
+
+:root {
+	--primary-color: #cf3aa2;
+
+	--primary-50: oklch(from var(--primary-color) 0.97 c h);
+	--primary-100: oklch(from var(--primary-color) 0.92 c h);
+	--primary-200: oklch(from var(--primary-color) 0.85 c h);
+	--primary-300: oklch(from var(--primary-color) 0.75 c h);
+	--primary-400: oklch(from var(--primary-color) 0.65 c h);
+	--primary-500: oklch(from var(--primary-color) 0.55 c h);
+	--primary-600: oklch(from var(--primary-color) 0.45 c h);
+	--primary-700: oklch(from var(--primary-color) 0.35 c h);
+	--primary-800: oklch(from var(--primary-color) 0.25 c h);
+	--primary-900: oklch(from var(--primary-color) 0.2 c h);
+
+	--secondary-color: #79c73e;
+
+	--secondary-50: oklch(from var(--secondary-color) 0.97 c h);
+	--secondary-100: oklch(from var(--secondary-color) 0.92 c h);
+	--secondary-200: oklch(from var(--secondary-color) 0.85 c h);
+	--secondary-300: oklch(from var(--secondary-color) 0.75 c h);
+	--secondary-400: oklch(from var(--secondary-color) 0.65 c h);
+	--secondary-500: oklch(from var(--secondary-color) 0.55 c h);
+	--secondary-600: oklch(from var(--secondary-color) 0.45 c h);
+	--secondary-700: oklch(from var(--secondary-color) 0.35 c h);
+	--secondary-800: oklch(from var(--secondary-color) 0.25 c h);
+	--secondary-900: oklch(from var(--secondary-color) 0.2 c h);
+}

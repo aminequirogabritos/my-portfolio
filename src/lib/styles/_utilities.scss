@@ -1,0 +1,37 @@
+@use 'variables' as *;
+@use 'mixins' as *;
+
+.container {
+	padding: 8rem 0;
+}
+
+.text-muted {
+	color: $text-secondary;
+}
+
+.list-separator {
+	border: 0;
+	height: 1px;
+	background-color: $text;
+	margin: 1rem 0;
+	opacity: 1;
+}
+
+.pill {
+	font-size: $font-size-xs;
+	padding: 4px 8px;
+	border-radius: 100px;
+	max-width: fit-content;
+
+	&.pill-primary {
+		@include style-primary;
+	}
+
+	&.pill-secondary {
+		@include style-secondary;
+	}
+}
+
+.text-small {
+	font-size: $font-size-sm;
+}
