@@ -1,14 +1,14 @@
 @use 'variables' as *;
 
 body {
-	font-family: 'Inter', sans-serif;
+	font-family: "Inter", sans-serif;
 	color: $text;
 }
 
 h1,
 h2,
 h3 {
-	font-family: 'Courier New', 'Noto Sans Mono', monospace;
+	font-family: "Courier New", "Noto Sans Mono", monospace;
 }
 
 h1 {
