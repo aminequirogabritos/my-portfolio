@@ -3,13 +3,12 @@ import adapter from '@sveltejs/adapter-static';
 
 // const dev = process.argv.includes('dev');
 
+/** @type {import('@sveltejs/kit').Config} */
 export default {
 	// preprocess: vitePreprocess(),
 
 	kit: {
 		adapter: adapter({
-			pages: 'build',
-			assets: 'build',
 			fallback: '404.html'
 		}),
 		paths: {
