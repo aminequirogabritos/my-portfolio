@@ -50,8 +50,8 @@
 	</div>
 
 	{#if images.length > 1}
-		<button class="nav-btn prev" onclick={prevSlide} aria-label="Anterior"> &#10094; </button>
-		<button class="nav-btn next" onclick={nextSlide} aria-label="Siguiente"> &#10095; </button>
+		<button class="nav-btn prev" onclick={prevSlide} aria-label="Previous"> &#10094; </button>
+		<button class="nav-btn next" onclick={nextSlide} aria-label="Next"> &#10095; </button>
 
 		<div class="indicators">
 			{#each images as _, i}
@@ -93,12 +93,6 @@
 				inset 0 0 0 1px rgba(255, 255, 255, 0.05),
 				inset 0 -80px 60px rgba(0, 0, 0, 0.15);
 		}
-	}
-
-	.project:hover .carousel-container {
-		transform: translateY(-2px);
-
-		box-shadow: 0 18px 45px rgba(0, 0, 0, 0.45);
 	}
 
 	.carousel-track {
@@ -159,8 +153,7 @@
 		}
 
 		&:hover {
-			background: var(--primary-700);
-			border-color: var(--primary-500);
+			background: var(--primary-400);
 			transform: translateY(-50%) scale(1.05);
 		}
 	}
@@ -189,7 +182,6 @@
 
 			&.active {
 				width: 22px;
-
 				background: var(--primary-400);
 			}
 		}

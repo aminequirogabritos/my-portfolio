@@ -1,0 +1,75 @@
+@use '../mixins' as *;
+@use '../variables' as *;
+
+.button {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+
+	font-size: $font-size-base;
+	color: $text;
+	padding: 6px 12px;
+	border-radius: 100px;
+	max-width: fit-content;
+	border: 0;
+	background-color: var(--secondary-50);
+
+	cursor: pointer;
+	transition:
+		background-color 0.15s ease,
+		transform 0.1s ease;
+
+	&:disabled {
+		opacity: 0.6;
+		cursor: not-allowed;
+	}
+
+	@at-root input#{&} {
+		color: inherit;
+		appearance: none;
+		outline: none;
+	}
+
+	@at-root a#{&} {
+		text-decoration: none;
+	}
+
+	input {
+		background: transparent;
+		border: 0;
+		color: inherit;
+		font-family: inherit;
+		font-size: inherit;
+		padding: 0;
+		margin: 0;
+		cursor: pointer;
+		outline: none;
+
+		flex: 1;
+
+		appearance: none;
+	}
+
+	svg,
+	i,
+	.icon {
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		flex-shrink: 0;
+		pointer-events: none;
+	}
+
+	&.button-primary {
+		@include style-primary;
+	}
+
+	&.button-secondary {
+		@include style-secondary;
+	}
+
+	@include mobile {
+		max-width: none;
+	}
+}

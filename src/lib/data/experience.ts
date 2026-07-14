@@ -4,11 +4,11 @@ type Period = {
 };
 
 type ExperienceItem = {
-	title: String;
-	place: String;
+	title: string;
+	place: string;
 	period: Period;
-	tech: String[];
-	description: String;
+	tech: string[];
+	description: string;
 };
 
 const experience: ExperienceItem[] = [
@@ -19,8 +19,8 @@ const experience: ExperienceItem[] = [
 			start: new Date(2024, 1, 22),
 			end: new Date(2026, 0, 10)
 		},
-		tech: ['Rust', 'Svelte'],
-		description: `Developed production backend services in Rust for a connected vehicle platform used by automotive clients. Designed REST APIs with Axum and Tokio, implemented business logic, integrated SQL databases and third-party services, and contributed to cloud deployments on AWS. Also collaborated on frontend development using SvelteKit and TypeScript while working in an Agile team.`
+		tech: ['Rust', 'Axum', 'Tokio', 'SvelteKit', 'TypeScript', 'PostgreSQL', 'AWS'],
+		description: `Developed production software for a connected vehicle platform, building asynchronous backend services in Rust with Axum and Tokio. Designed REST APIs, implemented business logic, managed PostgreSQL databases with sqlx, and integrated AWS services including S3, CloudWatch, and ECS. I also contributed to frontend development with SvelteKit and TypeScript, integrated AI-powered features using OpenAI and ElevenLabs APIs, and collaborated in an Agile team using GitHub-based workflows.`
 	},
 	{
 		title: 'Software Developer',
@@ -29,8 +29,8 @@ const experience: ExperienceItem[] = [
 			start: new Date(2022, 9, 1),
 			end: new Date(2023, 9, 31)
 		},
-		tech: ['Node.js'],
-		description: `Developed and maintained internal software used by public administration. Worked on business applications, database integration, feature implementation, and maintenance of existing systems while collaborating with a multidisciplinary team to support day-to-day institutional operations.`
+		tech: ['Node.js', 'Express', 'MySQL', 'Prisma'],
+		description: `Developed an automated bank reconciliation system for the public sector using Node.js, Express, MySQL, and Prisma ORM. Implemented PDF parsing and data extraction pipelines, designed relational databases, and automated financial reconciliation workflows that significantly reduced manual processing. I also built internal web interfaces and collaborated closely with accounting staff to translate business requirements into reliable software solutions.`
 	}
 ];
 

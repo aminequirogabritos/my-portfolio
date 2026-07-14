@@ -1,12 +1,16 @@
-@use "variables";
-@use "mixins";
-@use "reset";
-@use "typography";
-@use "utilities";
-@use "animations";
-@use "grid";
+@use 'variables';
+@use 'mixins';
+@use 'reset';
+@use 'typography';
+@use 'utilities';
+@use 'animations';
+@use 'grid';
 
-@use "components/blob";
-@use "components/card";
-@use "components/experience-item";
-@use "components/project-item";
+@use 'components/about';
+@use 'components/blob';
+@use 'components/button';
+@use 'components/card';
+@use 'components/experience-item';
+@use 'components/hero';
+@use 'components/project-item';
+@use 'components/social-group';

@@ -4,7 +4,7 @@ $surface: #181a20;
 $text: #ffffff;
 $text-secondary: #a1a1aa;
 
-$primary: #ed3aa2;
+$primary: #cf3aa2;
 
 $border-radius: 12px;
 
@@ -19,7 +19,7 @@ $font-size-sm: 0.875rem;
 $font-size-base: 1rem;
 $font-size-lg: 1.4rem;
 $font-size-xl: 2.2rem;
-$font-size-xxl: 3rem;
+$font-size-xxl: clamp(3rem, 8vw, 5rem);
 
 :root {
 	--primary-color: #cf3aa2;

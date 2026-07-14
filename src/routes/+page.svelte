@@ -3,7 +3,6 @@
 	import Experience from '$lib/components/Experience.svelte';
 	import Hero from '$lib/components/Hero.svelte';
 	import Projects from '$lib/components/Projects.svelte';
-	import Skills from '$lib/components/Skills.svelte';
 </script>
 
 <div class="global-bg">
@@ -16,5 +15,4 @@
 	<Experience></Experience>
 	<Projects></Projects>
 	<About></About>
-	<Skills></Skills>
 </main>

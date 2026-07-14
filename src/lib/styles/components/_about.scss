@@ -1,0 +1,54 @@
+@use '../mixins' as *;
+@use '../variables' as *;
+
+.about {
+	&__content {
+		display: flex;
+		flex-direction: row-reverse;
+		padding: 1.5rem 0;
+		gap: 4rem;
+		margin-bottom: 8rem;
+
+		@include mobile {
+			flex-direction: column;
+			gap: 1rem;
+		}
+	}
+
+	&__socials {
+		display: flex;
+		flex-direction: row;
+		padding: 1.5rem 0;
+		gap: 1rem;
+
+		@include mobile {
+			flex-direction: column;
+			gap: 1rem;
+		}
+	}
+
+	&__text {
+		flex: 0 0 70%;
+		display: flex;
+		gap: 0.25rem;
+
+		@include mobile {
+			flex: 1 1 auto;
+		}
+	}
+
+	&__image {
+		flex: 0 0 30%;
+		font-size: 1rem;
+		line-height: 1.6;
+
+		@include mobile {
+			flex: 1 1 auto;
+		}
+	}
+
+	&__image-frame {
+		border-radius: 1000px;
+		background-color: var(--primary-400);
+	}
+}

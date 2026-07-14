@@ -17,5 +17,6 @@
 }
 
 @mixin style-secondary {
+	background-color: transparent;
 	border: 1px solid var(--secondary-500);
 }

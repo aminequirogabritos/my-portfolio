@@ -35,3 +35,55 @@
 .text-small {
 	font-size: $font-size-sm;
 }
+
+.glow {
+	color: var(--primary-300);
+	text-shadow:
+		0 0 4px var(--primary-500),
+		0 0 12px color-mix(in oklab, var(--primary-500) 70%, transparent),
+		0 0 28px color-mix(in oklab, var(--primary-400) 40%, transparent);
+
+	@at-root img#{&} {
+		color: inherit;
+		filter: drop-shadow(0 0 4px var(--primary-500))
+			drop-shadow(0 0 12px color-mix(in oklab, var(--primary-500) 70%, transparent))
+			drop-shadow(0 0 28px color-mix(in oklab, var(--primary-400) 40%, transparent));
+	}
+
+	&.glow-animated {
+		animation: glow-text 2.8s ease-in-out infinite;
+
+		@at-root img#{&} {
+			animation: glow-img 2.8s ease-in-out infinite;
+		}
+	}
+}
+
+@keyframes glow-text {
+	0%,
+	100% {
+		text-shadow:
+			0 0 8px var(--primary-400),
+			0 0 20px var(--primary-300),
+			0 0 40px var(--primary-300);
+	}
+	50% {
+		text-shadow:
+			0 0 4px var(--primary-500),
+			0 0 12px color-mix(in oklab, var(--primary-500) 60%, transparent),
+			0 0 24px color-mix(in oklab, var(--primary-400) 25%, transparent);
+	}
+}
+
+@keyframes glow-img {
+	0%,
+	100% {
+		filter: drop-shadow(0 0 8px var(--primary-400)) drop-shadow(0 0 20px var(--primary-300))
+			drop-shadow(0 0 40px var(--primary-300));
+	}
+	50% {
+		filter: drop-shadow(0 0 4px var(--primary-500))
+			drop-shadow(0 0 12px color-mix(in oklab, var(--primary-500) 60%, transparent))
+			drop-shadow(0 0 24px color-mix(in oklab, var(--primary-400) 25%, transparent));
+	}
+}

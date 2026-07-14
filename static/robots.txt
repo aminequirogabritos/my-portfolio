@@ -1,3 +1,18 @@
-# allow crawling everything by default
 User-agent: *
-Disallow:
+Disallow: /downloads/
+Disallow: /assets/resume.pdf
+
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: *
+Allow: /

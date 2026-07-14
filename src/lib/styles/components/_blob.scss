@@ -1,40 +1,38 @@
-@use "../variables" as *;
+@use '../variables' as *;
 
 .global-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background-color: $background; /* Base canvas color */
-  z-index: -1; /* Pushes the entire background behind EVERYTHING */
-  overflow: hidden;
-  pointer-events: none; /* Keeps background completely non-interactable */
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: $background;
+	z-index: -1;
+	overflow: hidden;
+	pointer-events: none;
 }
 
-/* Base blob styling */
 .blob {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(80px); /* Adjust the blur to make it softer or sharper */
-  opacity: 0.5; /* Makes it subtle so it doesn't distract from text */
-  mix-blend-mode: screen; /* Optional: blends overlapping colors beautifully */
-  pointer-events: none; /* Allows users to click "through" the blob to highlight text */
+	position: absolute;
+	border-radius: 50%;
+	filter: blur(80px);
+	opacity: 0.5;
+	mix-blend-mode: screen;
+	pointer-events: none;
 }
 
-/* Customizing individual blobs */
 .blob-1 {
-  top: -20%;
-  left: -20%;
-  width: 800px;
-  height: 800px;
-  background: radial-gradient(circle, var(--secondary-400) 0%, rgba(255,0,127,0) 70%);
+	top: -20%;
+	left: -20%;
+	width: 1000px;
+	height: 800px;
+	background: radial-gradient(circle, var(--primary-400) 0%, rgba(255, 0, 127, 0) 70%);
 }
 
 .blob-2 {
-  bottom: -20%;
-  right: -5%;
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(circle, var(--primary-50) 0%, rgba(112,0,255,0) 70%);
+	bottom: -20%;
+	right: -5%;
+	width: 500px;
+	height: 500px;
+	background: radial-gradient(circle, var(--secondary-50) 0%, rgba(112, 0, 255, 0) 70%);
 }

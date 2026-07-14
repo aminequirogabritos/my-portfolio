@@ -4,22 +4,24 @@ export type ImageItem = {
 };
 
 type ProjectItem = {
-	title: String;
-	subtitle: String;
-	tech: String[];
-	description: String;
+	title: string;
+	subtitle: string;
+	tech: string[];
+	description: string;
 	images: ImageItem[];
-	links: String[];
+	links: string[];
 };
 
 const projects: ProjectItem[] = [
 	{
-		title: 'Path Tracing',
+		title: 'Real Time Path Tracer',
 		subtitle: 'Computer Engineering Thesis',
 		tech: ['WebGL2', 'GLSL', 'Three.js', 'JavaScript', 'Computer Graphics'],
-		description: `A physically based renderer developed as my Computer Engineering thesis. The project implements a GPU path tracer entirely in GLSL running on WebGL2, featuring progressive rendering, BVH acceleration, importance sampling, Next Event Estimation, Multiple Importance Sampling, Cook-Torrance materials, and physically based lighting.
-        
-        The project combines rendering theory with GPU optimization to achieve interactive performance while maintaining physically accurate light transport.`,
+		description: `A physically based path tracer developed from scratch as my Computer Engineering thesis using WebGL2 and GLSL.
+
+		The renderer implements Monte Carlo global illumination with progressive rendering, BVH acceleration structures, importance sampling, Next Event Estimation (NEE), Multiple Importance Sampling (MIS), Russian Roulette, and Cook-Torrance physically based materials.
+
+		The project focuses on GPU programming, rendering algorithms, and performance optimization, exploring techniques commonly used in modern real-time rendering research.`,
 		images: [
 			{
 				url: '/images/path-tracing-1.png',
@@ -34,7 +36,9 @@ const projects: ProjectItem[] = [
 		title: 'RACube',
 		subtitle: 'Augmented Reality App',
 		tech: ['Unity', 'C#', 'Vuforia', 'Augmented Reality', '3D Graphics'],
-		description: `An augmented reality application developed with Unity and Vuforia that overlays interactive 3D models onto a physical cube using image markers. The project explores marker-based tracking, real-time rendering, and user interaction, demonstrating the integration of computer vision with 3D graphics.`,
+		description: `An educational augmented reality application developed with Unity and Vuforia as part of a university research scholarship.
+
+		The application overlays interactive 3D content onto a physical cube using marker-based tracking, allowing students to explore educational material through immersive visualizations. I was responsible for the complete software development process, from concept and UX design to implementation and deployment.`,
 		images: [
 			{ url: '/images/racube-1.jpg', alt: 'RACube app used at school' },
 			{ url: '/images/racube-2.jpg', alt: 'RACube app used at school' },

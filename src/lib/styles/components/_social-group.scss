@@ -1,0 +1,12 @@
+@use '../mixins' as *; // Update with your actual mixins path
+
+.social-group {
+	display: flex;
+	gap: 12px;
+	flex-wrap: wrap;
+
+	@include mobile {
+		flex-direction: column;
+		width: 100%;
+	}
+}
