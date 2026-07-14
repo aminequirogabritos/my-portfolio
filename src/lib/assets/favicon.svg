@@ -1,1 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="107" height="128" viewBox="0 0 107 128"><title>svelte-logo</title><path d="M94.157 22.819c-10.4-14.885-30.94-19.297-45.792-9.835L22.282 29.608A29.92 29.92 0 0 0 8.764 49.65a31.5 31.5 0 0 0 3.108 20.231 30 30 0 0 0-4.477 11.183 31.9 31.9 0 0 0 5.448 24.116c10.402 14.887 30.942 19.297 45.791 9.835l26.083-16.624A29.92 29.92 0 0 0 98.235 78.35a31.53 31.53 0 0 0-3.105-20.232 30 30 0 0 0 4.474-11.182 31.88 31.88 0 0 0-5.447-24.116" style="fill:#ff3e00"/><path d="M45.817 106.582a20.72 20.72 0 0 1-22.237-8.243 19.17 19.17 0 0 1-3.277-14.503 18 18 0 0 1 .624-2.435l.49-1.498 1.337.981a33.6 33.6 0 0 0 10.203 5.098l.97.294-.09.968a5.85 5.85 0 0 0 1.052 3.878 6.24 6.24 0 0 0 6.695 2.485 5.8 5.8 0 0 0 1.603-.704L69.27 76.28a5.43 5.43 0 0 0 2.45-3.631 5.8 5.8 0 0 0-.987-4.371 6.24 6.24 0 0 0-6.698-2.487 5.7 5.7 0 0 0-1.6.704l-9.953 6.345a19 19 0 0 1-5.296 2.326 20.72 20.72 0 0 1-22.237-8.243 19.17 19.17 0 0 1-3.277-14.502 17.99 17.99 0 0 1 8.13-12.052l26.081-16.623a19 19 0 0 1 5.3-2.329 20.72 20.72 0 0 1 22.237 8.243 19.17 19.17 0 0 1 3.277 14.503 18 18 0 0 1-.624 2.435l-.49 1.498-1.337-.98a33.6 33.6 0 0 0-10.203-5.1l-.97-.294.09-.968a5.86 5.86 0 0 0-1.052-3.878 6.24 6.24 0 0 0-6.696-2.485 5.8 5.8 0 0 0-1.602.704L37.73 51.72a5.42 5.42 0 0 0-2.449 3.63 5.79 5.79 0 0 0 .986 4.372 6.24 6.24 0 0 0 6.698 2.486 5.8 5.8 0 0 0 1.602-.704l9.952-6.342a19 19 0 0 1 5.295-2.328 20.72 20.72 0 0 1 22.237 8.242 19.17 19.17 0 0 1 3.277 14.503 18 18 0 0 1-8.13 12.053l-26.081 16.622a19 19 0 0 1-5.3 2.328" style="fill:#fff"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 640 640"
+   version="1.1"
+   id="svg4"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs8" />
+  <rect
+     style="display:inline;fill:#90f729;fill-opacity:1;stroke:none;stroke-width:52.7698;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     id="rect4969"
+     width="389.96466"
+     height="274.56589"
+     x="125.01767"
+     y="169.08006" />
+  <!--!Font Awesome Free 7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2026 Fonticons, Inc.-->
+  <path
+     id="path2"
+     style="display:inline;fill:#ff10b5;fill-opacity:1;stroke:none;stroke-width:45.9649;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+     d="m 143.49414,114.07812 c -32.45123,0 -58.833984,26.38276 -58.833984,58.83399 V 437.66992 H 43.474609 c -9.744561,0 -17.65039,7.90583 -17.65039,17.65039 0,38.97825 31.623318,70.60157 70.601562,70.60157 H 543.57422 c 38.97825,0 70.60156,-31.62332 70.60156,-70.60157 0,-9.74456 -7.90583,-17.65039 -17.65039,-17.65039 H 555.33984 V 172.91211 c 0,-32.45123 -26.38275,-58.83399 -58.83398,-58.83399 z m 0,58.83399 H 496.50586 V 437.66992 H 143.49414 Z" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:341.333px;line-height:1.25;font-family:sans-serif;fill:#ff10b5;fill-opacity:1;stroke:none"
+     x="229.76254"
+     y="388.55756"
+     id="text14005"><tspan
+       id="tspan14003"
+       x="229.76254"
+       y="388.55756"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:341.333px;font-family:Dhurjati;-inkscape-font-specification:'Dhurjati Bold';fill:#ff10b5;fill-opacity:1">A</tspan></text>
+</svg>
