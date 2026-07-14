@@ -10,6 +10,7 @@ export default {
 		adapter: adapter(),
 		paths: {
 			base: dev ? '' : '/my-portfolio'
-		}
+		},
+		outDir: 'build'
 	}
 };
