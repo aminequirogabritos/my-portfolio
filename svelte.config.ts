@@ -14,6 +14,6 @@ export default {
 		paths: {
 			base: dev ? '' : '/my-portfolio'
 		},
-		outDir: '.svelte-kit/build'
+		outDir: '.svelte-kit/output'
 	}
 };
