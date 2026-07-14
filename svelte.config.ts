@@ -8,11 +8,12 @@ export default {
 
 	kit: {
 		adapter: adapter({
-
-            fallback: '404.html',
-        }),
+			pages: 'build',
+			assets: 'build',
+			fallback: '404.html'
+		}),
 		paths: {
-			base: dev ? '' : '/my-portfolio'
+			base: process.argv.includes('dev') ? '' : '/my-portfolio'
 		},
 		outDir: '.svelte-kit/output'
 	}
