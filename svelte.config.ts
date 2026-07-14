@@ -11,10 +11,10 @@ export default {
 			pages: 'build',
 			assets: 'build',
 			fallback: '404.html'
-		})
-		/* 		paths: {
+		}),
+		paths: {
 			base: process.argv.includes('dev') ? '' : '/my-portfolio'
-		},
-		outDir: '.svelte-kit/output' */
+		}
+		// outDir: '.svelte-kit/output'
 	}
 };
