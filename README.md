@@ -1,42 +1,56 @@
-# sv
+# Portfolio
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+My personal portfolio showcasing selected software engineering projects, technical experiments, and professional work.
 
-## Creating a project
+The website features my professional experience alongside personal and academic projects in backend development, Rust, graphics programming, and modern web technologies. Projects include a brief overview, the technologies used, screenshots, and links to their source code.
 
-If you're seeing this, you've probably already done this step. Congrats!
+## Features
 
-```sh
-# create a new project
-npx sv create my-app
+* Responsive single-page application
+* Image carousel for project screenshots and photos
+* Links to GitHub repositories
+* Contact section
+
+## Tech Stack
+
+* Svelte 5
+* SvelteKit
+* TypeScript
+* Sass
+* Vite
+
+## Running Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/aminequirogabritos/my-portfolio.git
 ```
 
-To recreate this project with the same configuration:
+Install dependencies:
 
-```sh
-# recreate this project
-npx sv@0.16.2 create --template minimal --types ts --add eslint prettier --install npm my-portfolio
+```bash
+npm install
 ```
 
-## Developing
+Start the development server:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
+```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+Build for production:
 
-To create a production version of your app:
-
-```sh
+```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Preview the production build:
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+```bash
+npm run preview
+```
+
+## Deployment
+
+The site is deployed using GitHub Pages with automatic deployment through GitHub Actions.
