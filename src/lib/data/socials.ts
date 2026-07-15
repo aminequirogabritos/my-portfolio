@@ -7,13 +7,13 @@ export interface SocialLink {
 
 const getSocials = (copyEmailCallback: () => void): SocialLink[] => [
 	{
-		label: 'GitHub',
-		iconClass: 'fa-brands fa-github-alt',
+		label: 'LinkedIn',
+		iconClass: 'fa-brands fa-linkedin',
 		href: 'https://www.linkedin.com/in/amine-quiroga-britos'
 	},
 	{
-		label: 'LinkedIn',
-		iconClass: 'fa-brands fa-linkedin',
+		label: 'GitHub',
+		iconClass: 'fa-brands fa-github-alt',
 		href: 'https://github.com/aminequirogabritos'
 	},
 	{
