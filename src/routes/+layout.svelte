@@ -11,6 +11,7 @@
 />
 
 <svelte:head>
+	<title>Amine Quiroga Britos - Portfolio</title>
 	<link rel="icon" href={favicon} />
 </svelte:head>
 
