@@ -1,14 +1,18 @@
 @use 'variables' as *;
+@use 'mixins' as *;
+@include font-face('Inter Local', 'inter-regular', 400);
+@include font-face('Inter Local', 'inter-bold', 700);
+@include font-face('Noto Sans Mono Local', 'noto-sans-mono-regular', 400);
 
 body {
-	font-family: "Inter", sans-serif;
+	font-family: 'Inter Local', sans-serif;
 	color: $text;
 }
 
 h1,
 h2,
 h3 {
-	font-family: "Courier New", "Noto Sans Mono", monospace;
+	font-family: 'Courier New', 'Noto Sans Mono Local', monospace;
 }
 
 h1 {
