@@ -6,18 +6,18 @@ The website features my professional experience alongside personal and academic 
 
 ## Features
 
-* Responsive single-page application
-* Image carousel for project screenshots and photos
-* Links to GitHub repositories
-* Contact section
+- Responsive single-page application
+- Image carousel for project screenshots and photos
+- Links to GitHub repositories
+- Contact section
 
 ## Tech Stack
 
-* Svelte 5
-* SvelteKit
-* TypeScript
-* Sass
-* Vite
+- Svelte 5
+- SvelteKit
+- TypeScript
+- Sass
+- Vite
 
 ## Running Locally
 

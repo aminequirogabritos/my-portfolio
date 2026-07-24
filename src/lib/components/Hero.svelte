@@ -8,16 +8,16 @@
 			Hello! My name is
 			<span class="glow glow-animated">Amine</span>
 		</h1>
-		<h2>Full-Stack Software Engineer</h2>
+		<h2>Software Engineer</h2>
 		<div class="hero__profile">
 			<div>
-				<i class="fa-solid fa-code"></i>
-				<h3>Front-End Development</h3>
+				<i class="fa-brands fa-rust"></i>
+				<h3>Rust</h3>
 			</div>
 			<h3 class="hero__dot">•</h3>
 			<div>
-				<i class="fa-solid fa-globe"></i>
-				<h3>Web Applications</h3>
+				<i class="fa-solid fa-code"></i>
+				<h3>Backend Engineering</h3>
 			</div>
 			<h3 class="hero__dot">•</h3>
 			<div>
@@ -27,10 +27,9 @@
 		</div>
 		<hr />
 		<p>
-			<strong>Full-Stack Software Engineer</strong> with 2 years of professional experience
-			developing production software in <strong>SvelteKit</strong>, <strong>TypeScript</strong>,
-			<strong>Rust</strong>
-			and modern web technologies. Experienced developing responsive user interfaces, integrating REST
+			<strong>Software Engineer</strong> with 2 years of professional experience developing
+			production software in <strong>Rust</strong>. Additionally experienced in building modern web
+			applications with <strong>TypeScript</strong> and <strong>SvelteKit</strong>, integrating REST
 			APIs, and collaborating across the full stack. Passionate about
 			<strong>systems programming</strong>,
 			<strong>computer graphics</strong>, and <strong>performance-oriented software</strong>, with a
