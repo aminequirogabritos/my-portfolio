@@ -17,11 +17,6 @@ const getSocials = (copyEmailCallback: () => void): SocialLink[] => [
 		href: 'https://github.com/aminequirogabritos'
 	},
 	{
-		label: 'Download CV',
-		iconClass: 'fa-solid fa-file',
-		href: 'assets/resume.pdf'
-	},
-	{
 		label: 'Copy Email',
 		iconClass: 'fa-solid fa-envelope',
 		action: copyEmailCallback
