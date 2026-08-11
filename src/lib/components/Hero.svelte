@@ -11,13 +11,13 @@
 		<h2>Software Engineer</h2>
 		<div class="hero__profile">
 			<div>
-				<i class="fa-brands fa-rust"></i>
-				<h3>Rust</h3>
+				<i class="fa-solid fa-code"></i>
+				<h3>Backend Engineering</h3>
 			</div>
 			<h3 class="hero__dot">•</h3>
 			<div>
-				<i class="fa-solid fa-code"></i>
-				<h3>Backend Engineering</h3>
+				<i class="fa-solid fa-gears"></i>
+				<h3>Systems Programming</h3>
 			</div>
 			<h3 class="hero__dot">•</h3>
 			<div>
@@ -27,13 +27,12 @@
 		</div>
 		<hr />
 		<p>
-			<strong>Software Engineer</strong> with 2 years of professional experience developing
-			production software in <strong>Rust</strong>. Additionally experienced in building modern web
-			applications with <strong>TypeScript</strong> and <strong>SvelteKit</strong>, integrating REST
-			APIs, and collaborating across the full stack. Passionate about
-			<strong>systems programming</strong>,
-			<strong>computer graphics</strong>, and <strong>performance-oriented software</strong>, with a
-			strong academic background in <strong>GPU programming</strong>,
+			<strong>Software Engineer</strong> with 2 years of professional experience building production
+			software and backend services. Experienced in <strong>Rust</strong>,
+			<strong>TypeScript</strong>, <strong>SvelteKit</strong>, REST APIs, and
+			<strong>AWS</strong>, with a strong interest in <strong>systems programming</strong>,
+			<strong>computer graphics</strong>, and <strong>performance-oriented software</strong>.
+			Academic background in <strong>GPU programming</strong>,
 			<strong>computer architecture</strong>, and <strong>embedded systems</strong>.
 		</p>
 		<div class="hero__socials">
